@@ -11,9 +11,7 @@ const About = () => {
         >
             <Heading fontSize="3xl">About</Heading>
             <Paragraph>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                a illo praesentium delectus neque velit! Iusto quis adipisci
-                reprehenderit non!
+                Hi there, I&apos;m currently study about 
             </Paragraph>
         </Box>
     );

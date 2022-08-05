@@ -1,11 +1,7 @@
-import { Box, chakra, Heading, shouldForwardProp, Text } from "@chakra-ui/react";
+import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import Image from "next/image";
-
-const ProfileImage = chakra(Image, {
-    shouldForwardProp: (prop) => 
-        ["width", "height", "src", "alt"].includes(prop)
-});
+import pfp from "../assets/img/mypic.jpg"
 
 const Card = () => {
     return (
@@ -22,7 +18,7 @@ const Card = () => {
                 </Heading>
                 <Text></Text>
             </Box>
-            <Box
+            {/* <Box
                 flexShrink={0}
                 my={{ base: 4, lg: 0 }}
                 ml={{ lg: 4 }}
@@ -39,14 +35,14 @@ const Card = () => {
                     overflow="hidden"
                 >
                     <Image
-                        src="/assets/img/mypic.jpg"
+                        src={pfp}
                         alt="Profile image"
                         borderRadius="full"
                         width="100%"
                         height="100%"
                     />
                 </Box>
-            </Box>
+            </Box> */}
         </Box>
     );
 };
