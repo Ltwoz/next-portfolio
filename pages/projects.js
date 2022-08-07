@@ -22,7 +22,7 @@ const Repos = [
         title: "URL Shortener",
         description: "Url shortener for shorten url",
         href: "https://github.com/Ltwoz/url-shortener-ejs/",
-        img: "https://github.com/Ltwoz/next-portfolio/raw/main/assets/img/wozbot.png",
+        img: "https://github.com/Ltwoz/next-portfolio/raw/main/assets/img/urlShortener.png",
         language: "Node.JS Express MongoDB",
     },
     {
@@ -56,14 +56,7 @@ const Projects = () => {
                             mb="40px"
                             key={idx}
                         >
-                            <Box p={4} minH="200px" borderRadius="xl" bgImg={data.img} bgPos="center" bgSize="cover">
-                                {/* <Image 
-                                    src={data.img}
-                                    alt={data.title}
-                                    width="100%"
-                                    height="100%"
-                                /> */}
-                            </Box>
+                            <Box p={4} minH="200px" borderRadius="xl" bgImg={data.img} bgPos="center" bgSize="cover"></Box>
                             <Heading as="h4" my={4} fontSize={26}>
                                 {data.title}
                             </Heading>
