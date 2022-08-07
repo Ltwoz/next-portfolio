@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <Box bg="transparent" as="nav" zIndex={2} position="fixed" w="100%">
+        <Box bg="transparent" as="nav" zIndex={2} w="100%" position="absolute">
             <Container
                 display="flex"
                 p={5}
