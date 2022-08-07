@@ -8,28 +8,28 @@ const Repos = [
         title: "Cantype",
         description: "Typing test website",
         href: "https://github.com/Ltwoz/cantype/",
-        img: "",
+        img: "https://github.com/Ltwoz/next-portfolio/raw/main/assets/img/wozbot.png",
         language: "JavaScript React",
     },
     {
         title: "Firegram",
         description: "CRUD Photo Gallery",
         href: "https://github.com/Ltwoz/firegram/",
-        img: "",
+        img: "https://github.com/Ltwoz/next-portfolio/raw/main/assets/img/wozbot.png",
         language: "JavaScript React",
     },
     {
         title: "URL Shortener",
         description: "Url shortener for shorten url",
         href: "https://github.com/Ltwoz/url-shortener-ejs/",
-        img: "",
+        img: "https://github.com/Ltwoz/next-portfolio/raw/main/assets/img/wozbot.png",
         language: "Node.JS Express MongoDB",
     },
     {
         title: "Wozbot Valorant",
         description: "Discord Bot Valorant store check",
         href: "https://github.com/Ltwoz/woz-bot-valorant/",
-        img: "",
+        img: "https://github.com/Ltwoz/next-portfolio/raw/main/assets/img/wozbot.png",
         language: "Python",
     },
 ];
@@ -56,7 +56,14 @@ const Projects = () => {
                             mb="40px"
                             key={idx}
                         >
-                            <Box p={4} minH="180px" borderRadius="xl"></Box>
+                            <Box p={4} minH="200px" borderRadius="xl" bgImg={data.img} bgPos="center" bgSize="cover">
+                                {/* <Image 
+                                    src={data.img}
+                                    alt={data.title}
+                                    width="100%"
+                                    height="100%"
+                                /> */}
+                            </Box>
                             <Heading as="h4" my={4} fontSize={26}>
                                 {data.title}
                             </Heading>
