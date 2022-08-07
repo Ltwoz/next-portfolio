@@ -43,11 +43,6 @@ const Navbar = () => {
                             Projects
                         </Text>
                     </Link>
-                    <Link href="/resume">
-                        <Text as='h1' fontSize={20} cursor="pointer">
-                            Resume
-                        </Text>
-                    </Link>
                 </Stack>
             </Container>
         </Box>
