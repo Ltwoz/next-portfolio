@@ -18,6 +18,20 @@ const Repos = [
         img: "",
         language: "JavaScript React",
     },
+    {
+        title: "URL Shortener",
+        description: "Url shortener for shorten url",
+        href: "https://github.com/Ltwoz/url-shortener-ejs/",
+        img: "",
+        language: "Node.JS Express MongoDB",
+    },
+    {
+        title: "Wozbot Valorant",
+        description: "Discord Bot Valorant store check",
+        href: "https://github.com/Ltwoz/woz-bot-valorant/",
+        img: "",
+        language: "Python",
+    },
 ];
 
 const Projects = () => {
